@@ -1,0 +1,12 @@
+[package]
+name = "coins"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { local = "../../../crates/sui-framework/deps/move-stdlib/" }
+Sui = { local = "../../../crates/sui-framework/" }
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+
+[addresses]
+coins =  "0x0"
